@@ -1,0 +1,35 @@
+name: Generate 3D Skyline
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs once a day at midnight UTC
+  workflow_dispatch:       # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  skyline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D skyline metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: dist/skyline.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: amreliyaaakash
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_years: "last"
+
+      - name: Commit generated skyline
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add dist/skyline.svg
+          git commit -m "Update 3D skyline" || echo "No changes to commit"
+          git push
