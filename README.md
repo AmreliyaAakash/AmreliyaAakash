@@ -1,96 +1,128 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=200&section=header&text=Amreliya%20Aakash&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20from%20India&descAlignY=55&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=Amreliya%20Aakash&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=55&descSize=20" />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=0E75B6&center=true&vCenter=true&width=550&lines=Hi+there%2C+I'm+Aakash+%F0%9F%91%8B;Full+Stack+Developer;React+%7C+Node.js+%7C+MongoDB;Always+Learning+New+Things+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=2575FC&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Aakash+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%92%BB;React+%7C+Node.js+%7C+MongoDB+%7C+Next.js;I+build+things+for+the+web+%F0%9F%8C%90;Always+shipping%2C+always+learning+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=amreliyaaakash&label=Profile%20views&color=0e75b6&style=flat" alt="amreliyaaakash" />
-  <img src="https://img.shields.io/github/followers/amreliyaaakash?label=Followers&style=flat&color=0e75b6" />
+  <img src="https://komarev.com/ghpvc/?username=amreliyaaakash&label=Profile%20Views&color=6a11cb&style=for-the-badge" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/amreliyaaakash?label=Followers&style=for-the-badge&color=2575fc" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pft6/giphy.gif" width="280">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pft6/giphy.gif" width="300">
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake animation" />
+</p>
+
+> ⚙️ Snake & 3D graphs below need a tiny one-time GitHub Action in your profile repo — I've included the workflow file so it runs automatically. Ask and I'll drop it in.
 
 ---
 
-### 🚀 About Me
+## 🚀 About Me
 
-- 🔭 I'm a passionate **Full Stack Developer** from India
-- 🌱 Currently exploring new tools across the MERN stack & Next.js
+<img align="right" width="380" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif">
+
+- 🔭 Full Stack Developer crafting clean, functional web apps
+- 🌱 Currently deep-diving into the MERN stack & Next.js
 - 💬 Ask me about **React, Node.js, MongoDB, JavaScript/TypeScript**
-- ⚡ Fun fact: I enjoy turning ideas into working products
+- ⚡ Fun fact: I turn coffee ☕ into code 💻
+- 📫 Reach me on **LinkedIn** below
+
+<br clear="right"/>
+
+---
+
+## 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=amreliyaaakash&theme=radical&no-frame=true&row=1&column=7" alt="amreliyaaakash" />
+  <img src="https://github-profile-trophy.vercel.app/?username=amreliyaaakash&theme=radical&no-frame=true&row=1&column=7" alt="trophies" />
 </p>
 
 ---
 
-### 🔗 Connect with me
+## 🔗 Connect with me
 
-<p align="left">
+<p align="center">
 <a href="https://www.linkedin.com/in/aakash-amreliya-a903432b6/" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" />
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 </p>
 
 ---
 
-### 🛠️ Languages and Tools
+## 🛠️ Tech Stack
 
-<p align="left">
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/></a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/></a>
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/></a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
-<a href="https://www.oracle.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/></a>
-<a href="https://postman.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
-<a href="https://www.selenium.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/></a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,mongodb,html,css,bootstrap,firebase,aws,oracle,git,postman,selenium&perline=8" />
+</p>
+
+<details>
+<summary>📈 Skill Confidence (click to expand)</summary>
+<br>
+
+`JavaScript`  ████████████████████░░ 90%
+`React`       ███████████████████░░░ 88%
+`Node.js`     ██████████████████░░░░ 85%
+`MongoDB`     █████████████████░░░░░ 80%
+`TypeScript`  ████████████████░░░░░░ 75%
+`Next.js`     ███████████████░░░░░░░ 72%
+
+</details>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amreliyaaakash&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amreliyaaakash&layout=compact&theme=radical&border_radius=10" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amreliyaaakash&theme=radical&border_radius=10" alt="streak stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amreliyaaakash&theme=react-dark&hide_border=true&area=true" alt="activity graph" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+## 🧊 3D Contribution Calendar
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amreliyaaakash&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amreliyaaakash&layout=compact&theme=radical" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amreliyaaakash&theme=radical" alt="amreliyaaakash" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amreliyaaakash&theme=react-dark" alt="activity graph" />
+  <img src="https://raw.githubusercontent.com/amreliyaaakash/amreliyaaakash/main/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="3d contribution graph" />
 </p>
 
 ---
 
-### 🐍 Contribution Snake
+## 📌 Featured Projects
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/amreliyaaakash/amreliyaaakash/output/github-contribution-grid-snake-dark.svg" alt="snake" />
-</p>
+<table align="center">
+  <tr>
+    <td width="50%">
+      <a href="#"><img src="https://media.giphy.com/media/L1R1tvL9OXfNCwzX9L/giphy.gif" width="100%"/></a>
+      <p align="center"><b>Project One</b> — short description here</p>
+    </td>
+    <td width="50%">
+      <a href="#"><img src="https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif" width="100%"/></a>
+      <p align="center"><b>Project Two</b> — short description here</p>
+    </td>
+  </tr>
+</table>
 
-> ℹ️ The snake animation needs a one-time GitHub Actions setup (see notes below) — it isn't automatic just from adding this image.
+> ✏️ Swap the `#` links and GIFs above with real repo links / demo previews once you tell me which projects to feature.
 
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="280">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300">
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=120&section=footer" />
