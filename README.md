@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:6a11cb,50:ff5f6d,100:2575fc&height=230&section=header&text=Amreliya%20Aakash&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Full%20Stack%20Developer%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=65&descSize=20" />
+<img width="100%" src="https://raw.githubusercontent.com/AmreliyaAakash/AmreliyaAakash/main/banner.svg" alt="animated banner" />
 
 <p align="center">
   <img src="https://media.giphy.com/media/26ufa9dQiJDdaHo7O/giphy.gif" width="100%" height="4">
@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=amreliyaaakash&label=Profile%20Views&color=ff5f6d&style=for-the-badge" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/amreliyaaakash?label=Followers&style=for-the-badge&color=2575fc" />
+  <img src="https://komarev.com/ghpvc/?username=AmreliyaAakash&label=Profile%20Views&color=ff5f6d&style=for-the-badge" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/AmreliyaAakash?label=Followers&style=for-the-badge&color=2575fc" />
   <img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge" />
 </p>
 
@@ -24,7 +24,7 @@
 
 <h2 align="center">🐍 Contribution Snake</h2>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amreliyaaakash/amreliyaaakash/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/AmreliyaAakash/AmreliyaAakash/output/github-contribution-grid-snake-dark.svg" width="100%" alt="snake animation" />
 </p>
 
 ---
@@ -34,10 +34,18 @@
   <em>A rotating isometric city built from your real commit history</em>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amreliyaaakash/amreliyaaakash/main/dist/skyline.svg" width="100%" alt="3D contribution skyline" />
+  <img src="https://raw.githubusercontent.com/AmreliyaAakash/AmreliyaAakash/main/dist/skyline.svg" width="100%" alt="3D contribution skyline" />
 </p>
 
 > ⚙️ This needs a small GitHub Action (`metrics.yml`, provided separately) — once it runs, this becomes a genuine isometric 3D render of your commit history, regenerated daily.
+
+---
+
+## ✍️ Signed, by me
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AmreliyaAakash/AmreliyaAakash/main/signature.svg" width="500" alt="self-drawing signature" />
+</p>
 
 ---
 
@@ -58,7 +66,7 @@
 ## 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=amreliyaaakash&theme=onedark&no-frame=true&no-bg=false&row=1&column=7" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=AmreliyaAakash&theme=onedark&no-frame=true&no-bg=false&row=1&column=7" alt="trophies" />
 </p>
 
 ---
@@ -97,16 +105,16 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amreliyaaakash&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amreliyaaakash&layout=compact&theme=radical&border_radius=10" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AmreliyaAakash&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=10" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmreliyaAakash&layout=compact&theme=radical&border_radius=10" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amreliyaaakash&theme=radical&border_radius=10" alt="streak stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmreliyaAakash&theme=radical&border_radius=10" alt="streak stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amreliyaaakash&theme=react-dark&hide_border=true&area=true" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmreliyaAakash&theme=react-dark&hide_border=true&area=true" alt="activity graph" />
 </p>
 
 ---
@@ -114,10 +122,10 @@
 ## 🧊 3D Contribution Calendar (multi-theme)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amreliyaaakash/amreliyaaakash/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3d contribution graph night" />
+  <img src="https://raw.githubusercontent.com/AmreliyaAakash/AmreliyaAakash/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3d contribution graph night" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/amreliyaaakash/amreliyaaakash/main/profile-3d-contrib/profile-south-ocean.svg" width="100%" alt="3d contribution graph ocean" />
+  <img src="https://raw.githubusercontent.com/AmreliyaAakash/AmreliyaAakash/main/profile-3d-contrib/profile-south-ocean.svg" width="100%" alt="3d contribution graph ocean" />
 </p>
 
 ---
