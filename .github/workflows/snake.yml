@@ -1,29 +1,47 @@
-name: Generate Snake Animation
+name: Contribution snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # runs every 6 hours
-  workflow_dispatch:         # lets you trigger it manually from the Actions tab
-  push:
-    branches:
-      - main
+    - cron: "17 2 * * *"   # once a day, off the hour to avoid peak-minute queueing
+  workflow_dispatch:
+
+# Default to read-only; only the job that publishes gets write.
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
 
 jobs:
   generate:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
     steps:
-      - name: Generate snake animation SVG
-        uses: Platane/snk@v3
+      - name: Render snake SVGs
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
-          github_user_name: amreliyaaakash
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push output to "output" branch
-        uses: crazy-max/ghaction-github-pages@v4
+      # Publishing an empty or truncated file would silently break the README,
+      # so fail loudly here instead.
+      - name: Verify output
+        run: |
+          set -euo pipefail
+          for f in dist/github-contribution-grid-snake.svg \
+                   dist/github-contribution-grid-snake-dark.svg; do
+            [ -s "$f" ] || { echo "::error::$f is missing or empty"; exit 1; }
+            head -c 256 "$f" | grep -q '<svg' \
+              || { echo "::error::$f does not look like an SVG"; exit 1; }
+            echo "ok  $f  ($(wc -c < "$f") bytes)"
+          done
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: dist

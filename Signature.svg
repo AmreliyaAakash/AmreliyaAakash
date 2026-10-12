@@ -1,62 +1,95 @@
-<svg viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-labelledby="t d">
+  <title id="t">Aakash Amreliya — monogram sign-off</title>
+  <desc id="d">A dark sign-off bar: an interlocking AA monogram that draws itself, the name AAKASH AMRELIYA, the handle github.com/AmreliyaAakash, and a terminal prompt reading dollar sign exit.</desc>
+
   <defs>
-    <linearGradient id="inkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff5f6d"/>
-      <stop offset="50%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#2575fc"/>
+    <style type="text/css"><![CDATA[
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+
+      /* base state is the finished state: with no CSS animation support, or
+         with prefers-reduced-motion, this still reads as a complete sign-off */
+      .draw { stroke-dashoffset: 0; }
+
+      @keyframes draw  { from { stroke-dashoffset: var(--len); } to { stroke-dashoffset: 0; } }
+      @keyframes rise  { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+      @keyframes fade  { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes blink { 0%, 48% { opacity: 1; } 52%, 100% { opacity: 0; } }
+
+      .a-m1    { animation: draw .85s cubic-bezier(.4,0,.2,1) .15s both; }
+      .a-m2    { animation: draw .85s cubic-bezier(.4,0,.2,1) .32s both; }
+      .a-mb1   { animation: draw .28s ease-out .9s both; }
+      .a-mb2   { animation: draw .28s ease-out 1.02s both; }
+      .a-mark  { animation: fade .5s ease-out 1.15s both; }
+      .a-name  { animation: rise .6s cubic-bezier(.2,.7,.3,1) .75s both; }
+      .a-url   { animation: rise .6s cubic-bezier(.2,.7,.3,1) .95s both; }
+      /* the flourish: one continuous geometric stroke, drawn last --
+         a signing gesture, not an imitation of real handwriting */
+      .a-flour { animation: draw 1.3s cubic-bezier(.3,0,.2,1) 1.2s both; }
+      .a-term  { animation: fade .5s ease-out 1.6s both; }
+      .a-cur   { animation: fade .1s linear 1.9s both, blink 1.05s step-end 1.9s infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .a-m1, .a-m2, .a-mb1, .a-mb2, .a-mark, .a-name, .a-url,
+        .a-flour, .a-term, .a-cur { animation: none !important; }
+      }
+    ]]></style>
+
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0v26" fill="none" stroke="#161B1C" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="flourFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#00E676" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#00E676" stop-opacity=".9"/>
+      <stop offset=".82" stop-color="#00E676" stop-opacity=".9"/>
+      <stop offset="1"   stop-color="#00E676" stop-opacity="0"/>
     </linearGradient>
+    <clipPath id="card"><rect width="1200" height="150" rx="4"/></clipPath>
   </defs>
 
-  <rect width="500" height="160" fill="transparent"/>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="150" fill="#0A0C0D"/>
+    <rect width="1200" height="150" fill="url(#grid)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="149" rx="4" fill="none" stroke="#232A2B"/>
 
-  <!-- Self-drawing cursive-style signature path for "Aakash" -->
-  <path d="M 30 110
-           C 30 70, 55 60, 65 100
-           C 70 115, 80 90, 85 70
-           C 90 55, 100 55, 100 80
-           C 100 100, 110 100, 115 85
-           M 130 60
-           C 130 60, 130 110, 130 110
-           M 130 85
-           C 140 75, 155 75, 155 90
-           C 155 105, 140 105, 135 95
-           M 175 60
-           C 175 60, 175 110, 175 110
-           M 175 90
-           C 185 75, 205 75, 205 95
-           C 205 110, 190 110, 185 100
-           M 225 70
-           C 235 65, 250 65, 250 80
-           C 250 95, 230 95, 225 90
-           C 225 105, 240 108, 250 100
-           M 270 60
-           C 270 60, 265 110, 270 110
-           C 280 110, 285 90, 290 80
-           C 293 90, 298 110, 305 110
-           M 320 70
-           C 330 65, 345 65, 345 85
-           C 345 100, 330 100, 325 90"
-        fill="none" stroke="url(#inkGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
-        stroke-dasharray="1400" stroke-dashoffset="1400">
-    <animate attributeName="stroke-dashoffset" from="1400" to="0" dur="3.5s" fill="freeze" begin="0s"/>
-  </path>
+  <!-- registration marks, matching the hero -->
+  <g class="a-mark" stroke="#00E676" stroke-width="1.5" fill="none" opacity=".7">
+    <path d="M16 32V16h16M1184 32V16h-16M16 118v16h16M1184 118v16h-16"/>
+  </g>
 
-  <!-- flourish underline that draws after the signature -->
-  <path d="M 20 130 C 120 150, 280 150, 400 128" fill="none" stroke="url(#inkGrad)" stroke-width="3"
-        stroke-linecap="round" stroke-dasharray="450" stroke-dashoffset="450">
-    <animate attributeName="stroke-dashoffset" from="450" to="0" dur="1.2s" begin="3.4s" fill="freeze"/>
-  </path>
+  <!-- AA monogram, same construction as the hero mark -->
+  <g transform="translate(48 46)" fill="none" stroke-linecap="square">
+    <path class="draw a-m1" style="--len:148" d="M0 58 22 0 44 58"
+          stroke="#E9EFEF" stroke-width="4.5" stroke-dasharray="148"/>
+    <path class="draw a-mb1" style="--len:31" d="M6.8 40h30.4"
+          stroke="#E9EFEF" stroke-width="4.5" stroke-dasharray="31"/>
+    <path class="draw a-m2" style="--len:148" d="M30 58 52 0 74 58"
+          stroke="#00E676" stroke-width="4.5" stroke-dasharray="148"/>
+    <path class="draw a-mb2" style="--len:31" d="M36.8 40h30.4"
+          stroke="#00E676" stroke-width="4.5" stroke-dasharray="31"/>
+  </g>
 
-  <!-- pen tip that "writes" then fades -->
-  <circle r="5" fill="#ffffff">
-    <animateMotion dur="3.5s" fill="freeze"
-      path="M 30 110 C 30 70, 55 60, 65 100 C 70 115, 80 90, 85 70 C 90 55, 100 55, 100 80 C 100 100, 110 100, 115 85"/>
-    <animate attributeName="opacity" values="1;1;0" dur="3.5s" fill="freeze"/>
-  </circle>
+  <path class="draw a-mark" style="--len:70" d="M160 40v70" stroke="#232A2B" stroke-width="1"
+        stroke-dasharray="70" fill="none"/>
 
-  <!-- subtitle fades in after signature completes -->
-  <text x="30" y="150" font-family="Fira Code, monospace" font-size="14" fill="#a855f7" opacity="0">
-    hand-drawn, not a template
-    <animate attributeName="opacity" values="0;0;0.85" dur="5s" begin="0s" fill="freeze"/>
-  </text>
+  <g class="a-name">
+    <text class="mono" x="192" y="70" font-size="23" font-weight="700" fill="#E9EFEF"
+          textLength="300" lengthAdjust="spacing">AAKASH AMRELIYA</text>
+  </g>
+  <g class="a-url">
+    <text class="mono" x="192" y="97" font-size="13" fill="#5F6A6B">github.com/AmreliyaAakash</text>
+  </g>
+
+  <!-- flourish: a single continuous stroke that signs off the card -->
+  <path class="draw a-flour" style="--len:640"
+        d="M540 96c58-34 104 14 158-6 54-20 72-48 128-40 56 8 70 50 132 40 42-7 62-26 78-42"
+        fill="none" stroke="url(#flourFade)" stroke-width="2" stroke-linecap="round"
+        stroke-dasharray="640"/>
+
+  <!-- terminal bookend, echoing the hero -->
+  <g class="a-term">
+    <text class="mono" x="1098" y="60" font-size="13.5" fill="#00E676" text-anchor="end">$</text>
+    <text class="mono" x="1156" y="60" font-size="13.5" fill="#8A9697" text-anchor="end">exit</text>
+  </g>
+  <rect class="a-cur" x="1160" y="48" width="7" height="16" fill="#00E676" opacity="0"/>
 </svg>
